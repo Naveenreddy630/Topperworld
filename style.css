@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "poppins", sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+   background-image: url(background.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.navigation {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation a{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    color: green;
+    background-color: aliceblue;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: background;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    text-align: center;
+}
+.content h1{
+    color: darkgreen;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: 55px;
+}
+.content p{
+    margin: 20px auto;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.content button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+    background-color: darkgreen;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
